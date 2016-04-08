@@ -10,10 +10,13 @@ public class ApplicationStarter {
 
         String mineField = "*..*.\n...*.\n....*";
 
+
+        System.out.println("\nINPUT:\n" + mineField);
+
         mineSweeper.setMineField(mineField);
         String solved = mineSweeper.getHintField();
 
-        System.out.println("OUTPUT:\n" + solved);
+        System.out.println("\nOUTPUT:\n" + solved);
 
     }
 
