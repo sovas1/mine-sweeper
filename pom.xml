@@ -8,5 +8,7 @@
     <artifactId>mine-sweeper</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- TODO JUnit Dependency and tests -->
+
 
 </project>
